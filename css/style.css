@@ -1,0 +1,226 @@
+/*
+
+Order of styling:
+1. General Text Styling
+2. HTML Elements and Classes
+3. Classes inside of Classes
+4. More HTML Elements and Classes
+
+*BASICALLY THE ORDER IN WHICH THEY APPEAR IN THE HTML DOCUMENT*
+
+*/
+body {
+  background-color: #cdd6d5;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+/***********/
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-size: 5rem; /* ' always remember that '100% = 16px = 1rem '*/
+  font-family: 'Sacramento', cursive;
+  line-height: 1;
+}
+
+/*****text******/
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+/***********/
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 0 0 1.875rem;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #77beda 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/*****inside body*****/
+.top-container {
+  background-color: #6b858a;
+  position: relative;
+  padding-top: 100px;
+}
+
+/*****inside top-container*****/
+.top-cloud {
+  position: absolute;
+  left: 54.25rem;
+  top: 3.125rem;
+}
+
+.systems-analyst {
+  font-weight: normal;
+  width: 50%;
+}
+
+.mountain {}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/*****inside body******/
+.middle-container {}
+
+/****inside middle-container*****/
+.profile {}
+
+/****inside profile*****/
+.profile-pic {
+  width: 15rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.intro-paragraph{
+  width: 30%;
+  margin: auto auto 50px;
+  text-align: center;
+}
+
+/****inside middle-container*****/
+.skills {}
+
+/*****inside skills*****/
+.my-skills-title{
+  margin: 50px auto 100px;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+/*****inside skill-row1*****/
+.investigation-icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding: 1.875rem 0;
+}
+
+/*****inside skills*****/
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*****inside skill-row2*****/
+.computer-icon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  padding: 1.875rem 0;
+
+}
+
+/*****inside skills*****/
+.skill-row3 {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.get-in-touch{
+  margin: 50px auto 25px;
+}
+
+/*****inside skill-row3*****/
+.security-sticker {
+  width: 25%;
+}
+
+.contact-button {
+    padding: 20px 10px 5px;
+    border-width: 2px;
+    border-color: lightblue;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 35px;
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #c4dfff, #c4dfff);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #6e878c, #87bdc7);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #e2f3ff;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #0c1623 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.contact-button:hover {
+    border: solid #214069 1px;
+    background: #6b858a;
+    background-image: -webkit-linear-gradient(top, #6b858a, #3D94F6);
+    background-image: -moz-linear-gradient(top, #6b858a, #3D94F6);
+    background-image: -ms-linear-gradient(top, #6b858a, #3D94F6);
+    background-image: -o-linear-gradient(top, #6b858a, #3D94F6);
+    background-image: linear-gradient(to bottom, #87bdc7, #87bdc7);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/*****inside body*****/
+.bottom-container {
+  background-color:#6b858a;
+  margin-top: 0px;
+  border-top-width: 100px;
+  padding: 50px 0px 20px;
+}
+
+/*****inside bottom-container*****/
+.copywrite{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
