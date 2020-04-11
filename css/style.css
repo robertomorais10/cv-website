@@ -31,7 +31,7 @@ h1 {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: normal;
   padding: 10px;
 }
@@ -40,7 +40,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
-  margin: 0 0 1.875rem;
+  margin: 0 0 30px;
 }
 
 p{
@@ -75,8 +75,8 @@ hr{
 /*****inside top-container*****/
 .top-cloud {
   position: absolute;
-  left: 74.25rem;
-  top: 3.125rem;
+  top: 3.125%;
+  left: 67.5%;
 }
 
 .systems-analyst {
@@ -88,9 +88,7 @@ hr{
 
 .bottom-cloud {
   position: absolute;
-  left: 35rem;
-  bottom: 19.5rem;
-
+  left: 22%;
 }
 
 /*****inside body******/
@@ -101,9 +99,9 @@ hr{
 
 /****inside profile*****/
 .profile-pic {
-  width: 15rem;
+  width: 240px;
   margin: auto;
-  padding-top: 4rem;
+  padding-top: 64px;
 }
 
 .intro-paragraph{
@@ -131,7 +129,7 @@ hr{
   width: 25%;
   float: left;
   margin-right: 30px;
-  padding: 1.875rem 0;
+  padding: 29.2px 0;
 }
 
 /*****inside skills*****/
@@ -147,7 +145,7 @@ hr{
   width: 25%;
   float: right;
   margin-left: 30px;
-  padding: 1.875rem 0;
+  padding: 30px 0;
 
 }
 
